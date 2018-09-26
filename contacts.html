@@ -3,61 +3,90 @@
 <html>
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Austin Shea's Big Site</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
-<body>
+<body background="C:\Users\apshe\Basic-Portfolio\leaves\leaves.png">
 
-    <div>
-        <h1>Austin Shea</h1>
-    </div>
+    <div class="flex-container">
 
-    <div>
-        <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </div>
+        <header>
 
-        <hr>
+            <div class="name" align="left">
+                <h1>Austin Shea</h1>
+            </div>
 
-    <h2>Contact</h2>
+            <div class="menu" align="right">
+                <ul>
+                    <li>
+                        <a href="index.html" target="_blank">About</a>
+                    </li>
+
+                    <li>|</li>
+                    <!-- <div class="vl"></div> -->
+
+                    <li>
+                        <a href="portfolio.html" target="_blank">Portfolio</a>
+                    </li>
+
+                    <li>|</li>
+
+                    <!-- <div class="vl"></div> -->
+
+                    <li>
+                        <a href="contact.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+
+        <div class="maincontent" align="center">
+
+            <!-- <img src="leaves.png" alt="Background"> -->
 
 
-    <div>
-      
-        <form>
-            Name<br>
-            <input>
-            <br>
-            Email<br>
-            <input>
-            <br>
-            Message<br>
-            <input>
-            <br><br>
-            
-        </form>
-
-    </div>
-
-    <div>
-        <button>Submit</button>
-    </div>
+            <h2>Contact</h2>
 
 
+            <div class="form" align="left">
+
+                <form>
+                    Name<br>
+                    <input>
+                    <br>
+                    <br>
+                    Email<br>
+                    <input>
+                    <br>
+                    <br>
+                    Message<br>
+                    <textarea rows="4" cols="50" name="comment"></textarea>
+                    <br><br>
+                </form>
+
+            </div>
+
+            <div class="button">
+                <button>Submit</button>
+            </div>
+
+        </div>
+
+
+    </div> <!-- end of flex-container -->
 </body>
 
 <footer>
 
-    <hr>
-    <br>
-    <br>
-        <p>Copyright</p>
-    <hr>
+    
+    <p align="center">Copyright</p>
+    
 
 </footer>
 
