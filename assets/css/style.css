@@ -58,6 +58,21 @@ p {
     clear: both;
 }
 
+.aboutme {
+    border: 1px solid;
+    width: 50%;
+    height: 400px;
+    float: center;
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+ }
+
+ .img {
+     float: left;
+ }
+
+
 .form {
     background-color: #ffffff;
     border: 1px ridge;
