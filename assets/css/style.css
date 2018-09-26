@@ -52,6 +52,8 @@ li {
 p {
     color: #777777;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .maincontent {
@@ -68,8 +70,12 @@ p {
     margin-top: 40px;
  }
 
+ 
+
  .img {
      float: left;
+     padding-left: 10px;
+     padding right: 10px;
  }
 
 
@@ -90,7 +96,8 @@ form {
 }
 
 h2 {
-    float: left;
+    color: #4aaaa5;
+    margin-left: 15px;
 }
 
 footer {
@@ -110,7 +117,6 @@ footer {
 a {
     color:#666666;
 }
-
 
 
 
