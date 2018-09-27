@@ -5,6 +5,7 @@
 
 body{
     background-position-x: 75px;
+    height: 1000px;
 }
 
 
@@ -15,6 +16,10 @@ header {
     border-bottom: 1px solid;
     border-bottom-color: #666666;
     margin: -15px -30px 0 -15px;
+    position: fixed;
+    top:  0;
+    width: 100%;
+    z-index: 3;
 }
 
 h1,h2 {
@@ -70,7 +75,7 @@ p {
     float: center;
     background: #d6d6d6;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     padding-right: 15px;
 }
 
@@ -84,8 +89,19 @@ p {
     margin-top: 40px;
     position: relative;
     z-index: 1;
+    margin-top: 120px;
 }
 
+.form {
+    background-color: #d6d6d6;
+    border: 1px ridge;
+    width: 50%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666666;
+    padding-bottom: 40px;
+    border-color: #666666;
+    margin-top: 120px
+}
 .portfolio {
     border: 1px solid;
     position: relative;
@@ -162,16 +178,6 @@ button {
     
 }
 
-.form {
-    background-color: #d6d6d6;
-    border: 1px ridge;
-    width: 50%;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: #666666;
-    margin-top: 20px;
-    padding-bottom: 40px;
-    border-color: #666666;
-}
 
 form {
     margin-left: 10px;
@@ -218,6 +224,8 @@ a {
     width: 90px;
     height: 32px;
 }
+
+.portfoliocontent, .aboutme
 
 
 
